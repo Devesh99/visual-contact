@@ -1,0 +1,10 @@
+<launch>
+
+  <node pkg="visual_contact" type="ttc_perspective" name="ttc_perspective" output="screen" >
+  </node>
+
+  <node pkg="visual_contact" type="visual_braking_perspective" name="visual_braking_perspective" output="screen" >
+    <rosparam file="$(find visual_contact)/launch_config/visual_braking_params.yaml" command="load" />
+  </node>
+
+</launch>

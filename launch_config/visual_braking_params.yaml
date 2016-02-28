@@ -1,0 +1,4 @@
+ttcCount_thresh: 10
+ttcMean_thresh: 70
+wSize: 100
+cmd_vel: 0.2
